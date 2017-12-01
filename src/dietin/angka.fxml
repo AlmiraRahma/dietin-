@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dietin.AngkaController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="611.0" layoutX="-9.0">
+         <image>
+            <Image url="@image/8.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="234.0" layoutY="30.0" text="Pemula" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="satu" layoutX="196.0" layoutY="138.0" onAction="#satu1" opacity="0.9" style="-fx-background-color: white;" text="1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="dua" layoutX="278.0" layoutY="138.0" onAction="#dua2" opacity="0.9" style="-fx-background-color: white;" text="2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="tiga" layoutX="360.0" layoutY="138.0" onAction="#tiga3" opacity="0.9" style="-fx-background-color: white;" text="3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="empat" layoutX="151.0" layoutY="221.0" onAction="#empat4" opacity="0.9" style="-fx-background-color: white;" text="4">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="lima" layoutX="241.0" layoutY="221.0" onAction="#lima5" opacity="0.9" style="-fx-background-color: white;" text="5">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="enam" layoutX="323.0" layoutY="221.0" onAction="#enam6" opacity="0.9" style="-fx-background-color: white;" text="6">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="tujuh" layoutX="405.0" layoutY="221.0" onAction="#tujuh7" opacity="0.9" style="-fx-background-color: white;" text="7">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

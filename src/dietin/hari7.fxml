@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dietin.Hari7Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@image/healthy-food.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="266.0" layoutY="33.0" text="Hari 7" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="89.0" text="Latihan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="126.0" text="10 Eagle Abs" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="153.0" text="10 Reverse Crunch" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="182.0" text="10 Double D's" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="260.0" text="Menu Makan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="290.0" text="3 sendok nasi + Sayur" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="317.0" text="Buah + Air Putih" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="210.0" text="5 Infinity Abs" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="110.0" fitWidth="98.0" layoutX="320.0" layoutY="122.0">
+         <image>
+            <Image url="@image/eagle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="98.0" layoutX="465.0" layoutY="122.0">
+         <image>
+            <Image url="@image/reverse.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="98.0" layoutX="465.0" layoutY="249.0">
+         <image>
+            <Image url="@image/dd.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="98.0" layoutX="320.0" layoutY="249.0">
+         <image>
+            <Image url="@image/accordian.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="kembali" layoutX="58.0" layoutY="347.0" mnemonicParsing="false" onAction="#kembali" text="kembali" />
+   </children>
+</AnchorPane>

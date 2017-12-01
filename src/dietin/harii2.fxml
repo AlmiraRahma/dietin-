@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dietin.Harii2Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="607.0" layoutX="-3.0">
+         <image>
+            <Image url="@image/Health-Food.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="93.0" layoutX="335.0" layoutY="78.0">
+         <image>
+            <Image url="@image/30-day-butt-challenge-no-gray-hi-res%20(5)%20-%20Copy%20-%20Copy%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="102.0" layoutX="467.0" layoutY="78.0">
+         <image>
+            <Image url="@image/30-day-butt-challenge-no-gray-hi-res%20(5)%20-%20Copy%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="119.0" layoutX="450.0" layoutY="218.0">
+         <image>
+            <Image url="@image/30-day-butt-challenge-no-gray-hi-res%20(5)%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="266.0" layoutY="23.0" text="Hari 2" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="111.0" layoutY="85.0" text="Latihan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="111.0" layoutY="115.0" text="6 Squats" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="111.0" layoutY="139.0" text="6 Pointed Butt Lifts" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="111.0" layoutY="166.0" text="6 Fire Hydrants" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="kembali" layoutX="45.0" layoutY="339.0" mnemonicParsing="false" onAction="#kembali" text="Kembali" />
+      <Label layoutX="109.0" layoutY="218.0" text="Menu Makan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="247.0" text="kopi tubruk / teh + 1.5 ons bistik goreng" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="268.0" text="selada ditaburi jeruk nipis + 2 kentang rebus" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="291.0" text="1 buah segar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dietin.Hari4Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@image/4.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="286.0" layoutY="63.0" text="Hari 4" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="123.0" text="Latihan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="153.0" text="7 Eagle Abs" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="177.0" text="7 Reverse Crunch" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="200.0" text="7 Double D's" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="258.0" text="Menu Makan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="288.0" text="Juice + Air putih" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="110.0" fitWidth="98.0" layoutX="320.0" layoutY="122.0">
+         <image>
+            <Image url="@image/eagle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="98.0" layoutX="465.0" layoutY="122.0">
+         <image>
+            <Image url="@image/reverse.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="108.0" layoutX="395.0" layoutY="260.0">
+         <image>
+            <Image url="@image/dd.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="kembali" layoutX="89.0" layoutY="345.0" mnemonicParsing="false" onAction="#kembali" text="kembali" />
+   </children>
+</AnchorPane>
